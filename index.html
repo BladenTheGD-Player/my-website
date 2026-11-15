@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d0b">
+  <meta name="description" content="A personal corner of the internet.">
+  <title>My Corner of the Internet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="matrix-rain" aria-hidden="true"></canvas>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand-mark">/</span><span>YOUR<span class="green">SPACE</span></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="navigation" id="navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#interests">Interests</a>
+      <a class="nav-contact" href="#contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> PERSONAL WEBSITE <span class="eyebrow-line"></span> EST. 2026</div>
+        <h1>Welcome to my<br><span class="gradient-text">corner of the internet.</span></h1>
+        <p class="hero-description">A little space for the things I make, the things I’m into, and whatever I’m exploring next.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my world <span>↘</span></a>
+          <a class="text-link" href="#about">A bit about me <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract green digital artwork">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core"><span class="core-symbol">⌘</span><span class="core-label">ONLINE</span></div>
+        <span class="visual-tag tag-top">SYS://PERSONAL</span>
+        <span class="visual-tag tag-bottom">CONNECTION ESTABLISHED<span class="blink">_</span></span>
+        <span class="visual-coordinate">51° 30' 26.4"N<br>00° 07' 39.0"W</span>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section-wrap content-section" id="about">
+      <div class="section-heading">
+        <span class="section-index">01 / INTRODUCTION</span>
+        <h2>A little about <span class="green">me.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-lead">
+          <p class="large-copy">Hey, I’m <span class="green">[Your name]</span>.</p>
+          <p>This is my own little corner of the web. I’m interested in technology, creativity, and finding out how things work.</p>
+        </div>
+        <div class="about-note">
+          <span class="note-icon">✳</span>
+          <p><strong>Currently exploring</strong></p>
+          <p class="muted">Add a few things you’re learning, building, or enjoying right now. Make this space your own.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="projects">
+      <div class="section-heading heading-row">
+        <div><span class="section-index">02 / THINGS I’VE MADE</span><h2>Selected <span class="green">projects.</span></h2></div>
+        <span class="heading-aside">A WORK IN PROGRESS <span class="green">●</span></span>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-terminal"><span class="terminal-top"><i></i><i></i><i></i><b>terminal.exe</b></span><div class="terminal-lines"><span>&gt; initialise project</span><span class="terminal-green">&gt; building something cool...</span><span>&gt; <b class="blink">_</b></span></div></div>
+          <div class="project-meta"><span>01 / PYTHON</span><span class="project-status">IN DEVELOPMENT</span></div>
+          <h3>REX.PY</h3>
+          <p>A personal terminal AI project with a Matrix-inspired interface.</p>
+          <a class="card-link" href="#contact">Project details <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-grid"><div class="grid-orb"></div><span class="art-caption">IDEAS → REALITY</span></div>
+          <div class="project-meta"><span>02 / YOUR CATEGORY</span><span class="project-status">YOUR STATUS</span></div>
+          <h3>Your next project</h3>
+          <p>Replace this card with something you’ve created or are working on.</p>
+          <a class="card-link" href="#contact">Project details <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-code"><span>01001000</span><span>01000101</span><span class="code-highlight">01001100</span><span>01001100</span><span>01001111</span></div>
+          <div class="project-meta"><span>03 / EXPERIMENT</span><span class="project-status">COMING SOON</span></div>
+          <h3>Future experiment</h3>
+          <p>A place for a new idea, experiment, or little side quest.</p>
+          <a class="card-link" href="#contact">Project details <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section interests-section" id="interests">
+      <div class="section-heading">
+        <span class="section-index">03 / WHAT I’M INTO</span>
+        <h2>Curious by <span class="green">nature.</span></h2>
+      </div>
+      <div class="interest-list">
+        <div><span class="interest-number">01</span><span class="interest-name">Technology & coding</span><span class="interest-arrow">↗</span></div>
+        <div><span class="interest-number">02</span><span class="interest-name">Creative projects</span><span class="interest-arrow">↗</span></div>
+        <div><span class="interest-number">03</span><span class="interest-name">Gaming & digital worlds</span><span class="interest-arrow">↗</span></div>
+        <div><span class="interest-number">04</span><span class="interest-name">Learning new things</span><span class="interest-arrow">↗</span></div>
+      </div>
+      <p class="edit-hint">These are starter ideas — change them to match what you actually enjoy.</p>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-panel">
+        <span class="section-index">04 / THE NEXT CONNECTION</span>
+        <h2>Let’s make<br>something <span class="green">interesting.</span></h2>
+        <p>Want to get in touch? Add your social links or email address below.</p>
+        <a class="button button-primary" href="mailto:hello@example.com">Say hello <span>↗</span></a>
+        <div class="contact-decoration">0101 <span>1010</span> 0011</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home"><span class="brand-mark">/</span><span>YOUR<span class="green">SPACE</span></span></a>
+    <span>BUILT ON THE INTERNET <span class="green">●</span></span>
+    <span>© <span id="year"></span> YOUR NAME</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
